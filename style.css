@@ -1,0 +1,133 @@
+.slideanim{visibility: hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+   .parallax{
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    .home{
+      background-image: url(images6.jpg);
+    }
+   .footer,.edu,.exp,.contact
+   {
+     background-image: url(design.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+   }
+   .container{
+     background: transparent;
+   }
+   
+   @media only screen and (max-width: 767px) {
+   .v1{
+     display: none;
+   }
+   #uline
+   {
+     display: block;
+   }
+   }
+@media only screen and (max-width: 320px) {
+  #home{
+   padding-top: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #main{
+  padding-top: 5%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #main{
+  padding-top: 5%;
+  }
+}
+   [class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+     nav{
+      background-color:rgb(0, 0, 0);
+      color: white;
+      font-size:20px;
+      border-bottom:1px solid rgb(255, 255, 255);
+      
+     }
+ 
+     .img {  
+  float: left;
+  padding: 10px;
+}
+.text1{
+  float: right;
+  padding: 10px;
+}
+.home,.contact,.text1{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  margin-bottom: 0px!important;
+}
+.vl {
+  border-left: 6px solid rgb(255, 255, 255);
+  height:auto;
+  margin-right: 5%;
+  
+}
+.v2 {
+  border-left: 6px solid rgb(0, 0, 0);
+  height:auto;
+  margin-right: 5%;
+  
+}
+.t1 ,.t2,.t3{
+  height: 130px;
+  width:130px;
+  border-radius: 50%;
+  margin: 3% 3% 3% 3%;
+  outline: 0;
+  background-color: #000000;
+  color: #ffffff;
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: 1px 2px 10px rgb(0, 0, 0);
+}
+.fa {
+  padding-top: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background-color: #000000;
+  
+}
